@@ -1,0 +1,53 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: azure;
+    background-color: rgba(128, 128, 128, 0.674);
+}
+
+#question{
+    font-size: 40px;
+    border: #000000;
+}
+
+.container {
+    background-color: gray;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px #444;
+    border: 0.01rem solid rgba(0, 0, 0, 0.221);
+}
+
+.pergunta {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+button {
+    border: 1px solid rgba(0, 0, 0, 0.76);
+    margin: 0 10px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: .5rem;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.76);
+    
+}
+#nao{
+    transition: all .29s;
+    /* Tempo de animação define a dificuldade da trol */
+}
